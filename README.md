@@ -2,27 +2,77 @@
 
 👋 Seja bem-vindo(a)!
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+Automação de teste com cypress
 
-## O que você vai aprender?
+Este repositório contém um conjunto de testes automatizados para a Central de Atendimento ao Cliente TAT, desenvolvido utilizando Cypress.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Descrição
+Os testes automatizados cobrem diversos cenários de validação e interação do usuário, garantindo a qualidade e a robustez da aplicação. Veja abaixo um resumo dos cenários de teste implementados.
 
-## Vamos começar?
+Cenários de Teste
+Verificação do Título da Aplicação
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Certifica-se de que o título da página esteja correto.
 
-___
+Preenchimento do Formulário
 
-Este é um curso da **Escola Talking About Testing**.
+Preenche todos os campos obrigatórios, seleciona um produto, marca opções e verifica se o formulário é enviado com sucesso.
+
+Validação do Campo de E-mail
+
+Garante que um e-mail inválido exibe uma mensagem de erro apropriada.
+
+Validação de Campo Numérico no Telefone
+
+Assegura que caracteres não numéricos no campo de telefone não sejam aceitos.
+
+Verificação de Mensagem de Erro quando o Telefone é Obrigatório
+
+Testa a exibição da mensagem de erro quando o telefone é obrigatório, mas não preenchido.
+
+Erro ao Submeter Formulário sem Campos Obrigatórios
+
+Verifica se o sistema exibe uma mensagem de erro ao tentar submeter o formulário sem preencher os campos obrigatórios.
+
+Validação de Campos Obrigatórios
+
+Certifica-se de que os campos obrigatórios são preenchidos um a um, e que a mensagem de erro só desaparece quando todos estão preenchidos corretamente.
+
+Anexando um Arquivo ao Formulário
+
+Testa a funcionalidade de anexar um arquivo ao formulário e envia-o com sucesso.
+
+Como Executar os Testes
+Clone este repositório para a sua máquina local:
+
+bash
+git clone https://github.com/matheusmanoel4/Automation-with-Cypress.git
+Navegue até o diretório do projeto:
+
+bash
+cd seu-projeto
+Instale as dependências necessárias:
+
+bash
+npm install
+Execute os testes:
+
+bash
+npx cypress open
+No painel do Cypress, selecione o arquivo de teste desejado para iniciar a execução dos testes.
+
+Tecnologias Utilizadas
+Cypress - Ferramenta de automação de testes end-to-end.
+
+Contribuições
+Contribuições são bem-vindas! Se você tiver alguma sugestão ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está licenciado sob a [Nome da Licença].
+
+Contato
+Para mais informações ou perguntas, entre em contato:
+
+Seu Nome
+
+Email: seuemail@example.com

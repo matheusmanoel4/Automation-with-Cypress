@@ -79,7 +79,7 @@ it('Validação de campos obrigatorios', () => {
 })
 
 
- it.only('Anexando um Arquivo ao Formulario', () => {
+ it('Anexando um Arquivo ao Formulario', () => {
   cy.get('#firstName').type('Matheus', { delay: 100 })
   cy.get('#lastName').type('Manoel',{ delay: 100 })
   cy.get('#email').type('Teste@gmail.com',{ delay: 100 })

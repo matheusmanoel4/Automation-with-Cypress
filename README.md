@@ -1,4 +1,4 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# 🌲 Cypress ☁️
 
 👋 Seja bem-vindo(a)!
 
@@ -67,12 +67,11 @@ Cypress - Ferramenta de automação de testes end-to-end.
 Contribuições
 Contribuições são bem-vindas! Se você tiver alguma sugestão ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Licença
-Este projeto está licenciado sob a [Nome da Licença].
-
 Contato
 Para mais informações ou perguntas, entre em contato:
 
-Seu Nome
+Matheus Manoel
 
-Email: seuemail@example.com
+Email: oliveiramatheusmanoel807@gmail.com
+
+Melhor curso de cypress: Cypress, do Zero à Nuvem na Udemy

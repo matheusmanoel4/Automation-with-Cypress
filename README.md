@@ -1,77 +1,44 @@
-# 🌲 Cypress ☁️
+# 🧪🚀 Automação de Testes com Cypress
 
-👋 Seja bem-vindo(a)!
+Este repositório contém um conjunto de testes automatizados desenvolvidos com **Cypress**, com foco na validação de formulários e interações essenciais da aplicação. Os testes têm como objetivo garantir a qualidade e robustez do sistema, cobrindo diferentes cenários de uso real.
 
-Automação de teste com cypress
+---
 
-Este repositório contém um conjunto de testes automatizados para a Central de Atendimento ao Cliente TAT, desenvolvido utilizando Cypress.
+## 🎯 Objetivo
 
-Descrição
-Os testes automatizados cobrem diversos cenários de validação e interação do usuário, garantindo a qualidade e a robustez da aplicação. Veja abaixo um resumo dos cenários de teste implementados.
+Demonstrar o uso do Cypress para automação de testes de interface, cobrindo cenários comuns de validação de formulários, preenchimento de campos, anexos e mensagens de erro. Este projeto também é uma excelente base de aprendizado para quem deseja iniciar com automação de testes frontend.
 
-Cenários de Teste
-Verificação do Título da Aplicação
+---
 
-Certifica-se de que o título da página esteja correto.
+## 🔍 Cenários de Teste
 
-Preenchimento do Formulário
+1. **✅ Verificação do Título da Aplicação**  
+   Garante que o título da página esteja corretamente exibido.
 
-Preenche todos os campos obrigatórios, seleciona um produto, marca opções e verifica se o formulário é enviado com sucesso.
+2. **✅ Preenchimento do Formulário**  
+   Preenche todos os campos obrigatórios, seleciona um produto, marca opções e envia o formulário com sucesso.
 
-Validação do Campo de E-mail
+3. **🚫 Validação do Campo de E-mail**  
+   Verifica se e-mails inválidos geram a mensagem de erro apropriada.
 
-Garante que um e-mail inválido exibe uma mensagem de erro apropriada.
+4. **🚫 Validação de Campo Numérico no Telefone**  
+   Garante que caracteres não numéricos não sejam aceitos no campo de telefone.
 
-Validação de Campo Numérico no Telefone
+5. **⚠️ Validação de Telefone Obrigatório**  
+   Testa se a mensagem de erro é exibida corretamente quando o telefone não é preenchido.
 
-Assegura que caracteres não numéricos no campo de telefone não sejam aceitos.
+6. **🚫 Erro ao Submeter sem Campos Obrigatórios**  
+   Verifica a exibição de mensagens de erro ao tentar enviar o formulário vazio.
 
-Verificação de Mensagem de Erro quando o Telefone é Obrigatório
+7. **🔄 Validação Progressiva de Campos Obrigatórios**  
+   Garante que os campos obrigatórios devem ser preenchidos um a um para que as mensagens de erro desapareçam.
 
-Testa a exibição da mensagem de erro quando o telefone é obrigatório, mas não preenchido.
+8. **📎 Upload de Arquivo**  
+   Testa a funcionalidade de anexar e enviar um arquivo via formulário.
 
-Erro ao Submeter Formulário sem Campos Obrigatórios
+---
 
-Verifica se o sistema exibe uma mensagem de erro ao tentar submeter o formulário sem preencher os campos obrigatórios.
+## 🛠️ Tecnologias Utilizadas
 
-Validação de Campos Obrigatórios
-
-Certifica-se de que os campos obrigatórios são preenchidos um a um, e que a mensagem de erro só desaparece quando todos estão preenchidos corretamente.
-
-Anexando um Arquivo ao Formulário
-
-Testa a funcionalidade de anexar um arquivo ao formulário e envia-o com sucesso.
-
-Como Executar os Testes
-Clone este repositório para a sua máquina local:
-
-bash
-git clone https://github.com/matheusmanoel4/Automation-with-Cypress.git
-Navegue até o diretório do projeto:
-
-bash
-cd seu-projeto
-Instale as dependências necessárias:
-
-bash
-npm install
-Execute os testes:
-
-bash
-npx cypress open
-No painel do Cypress, selecione o arquivo de teste desejado para iniciar a execução dos testes.
-
-Tecnologias Utilizadas
-Cypress - Ferramenta de automação de testes end-to-end.
-
-Contribuições
-Contribuições são bem-vindas! Se você tiver alguma sugestão ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-Contato
-Para mais informações ou perguntas, entre em contato:
-
-Matheus Manoel
-
-Email: oliveiramatheusmanoel807@gmail.com
-
-Melhor curso de cypress: Cypress, do Zero à Nuvem na Udemy
+- [Cypress](https://www.cypress.io/) – Automação de testes E2E
+- JavaScript – Linguagem de programação dos testes
